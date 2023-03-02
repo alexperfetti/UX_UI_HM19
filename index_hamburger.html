@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Case Studies hamburger</title>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link href="./styles-hamburger.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous"></script>
+
+        <script src="./19_hamburger.js"></script>
+    </head>
+    <body>
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"><img src="./photos/PerfettiLogo_rev.png" alt="Perfetti logo"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">About Me</a>
+    <a href="#contact">Case Studies</a>
+    <a href="#about">Contact Me</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </body>
+</html>
